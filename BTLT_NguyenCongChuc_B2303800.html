@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài tập lý thuyết</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="https://www.ctu.edu.vn/">
+          <img
+            src="https://www.ctu.edu.vn/images/upload/logo.png"
+            alt=""
+            width="100"
+          />
+        </a>
+        <br />
+        <a href="https://www.ctu.edu.vn/">Trang chủ</a>
+        <a href="https://www.ctu.edu.vn/tin-tuc-su-kien.html">Tin tức</a>
+        <a href="https://tuyensinh.ctu.edu.vn/">Đăng ký</a>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <section>
+          <h1>Các thẻ tiêu đề</h1>
+          <h1>Heading 1</h1>
+          <h2>Heading 2</h2>
+          <h3>Heading 3</h3>
+          <h4>Heading 4</h4>
+          <h5>Heading 5</h5>
+          <h6>Heading 6</h6>
+          <hr />
+        </section>
+        <section>
+          <h1>Font chữ</h1>
+          <font face="arial" color="red" size="5">Font chữ arial</font> <br />
+          <font face="time new roman" color="blue" size="5"
+            >Font chữ time new roman</font
+          ><br />
+          <font face="monospace" color="black" size="5"
+            >Font chữ monospace</font
+          >
+          <br />
+          <font face="verdana" color="green" size="5">Font chữ verdana</font
+          ><br />
+          <hr />
+        </section>
+        <section>
+          <h1>Một số thẻ định dạng văn bản</h1>
+          <p><b>Heading 1</b></p>
+          <p><u>Heading 2</u></p>
+          <p><i>Heading 3</i></p>
+          <p><strong>Heading 4</strong></p>
+          <p><big>Heading 5</big></p>
+          <p><small>Heading 6</small></p>
+          <p>Heading <sup>7</sup></p>
+          <p>Heading <sub>8</sub></p>
+          <p>Một vài ký tự đặc biệt: &lt; &gt; &amp; &copy; &reg; &yen;</p>
+          <hr />
+        </section>
+        <section>
+          <h1>Danh sách</h1>
+          <ul>
+            <li>Lựa chọn 1</li>
+            <li>Lựa chọn 2</li>
+            <li>Lựa chọn 3</li>
+          </ul>
+          <ol>
+            <li>Lựa chọn 1</li>
+            <li>Lựa chọn 2</li>
+            <li>Lựa chọn 3</li>
+          </ol>
+          <dl>
+            <dt>Lựa chọn 1</dt>
+            <dd>Lựa chọn 2</dd>
+            <dt>Lựa chọn 3</dt>
+            <dd>Lựa chọn 4</dd>
+          </dl>
+          <hr />
+        </section>
+        <section>
+          <h1>Bảng</h1>
+          <table border="1" cellspacing="0">
+            <thead>
+              <tr>
+                <th>STT</th>
+                <th>MSSV</th>
+                <th>Họ tên</th>
+                <th>Năm sinh</th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <td colspan="4">
+                  <center><b>Hết danh sách</b></center>
+                </td>
+              </tr>
+            </tfoot>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>B2303800</td>
+                <td>Nguyễn Công Chức</td>
+                <td>2005</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>B2313200</td>
+                <td>Nguyễn Văn A</td>
+                <td>2004</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>B2340822</td>
+                <td>Nguyễn Thị B</td>
+                <td>2005</td>
+              </tr>
+            </tbody>
+          </table>
+          <hr />
+        </section>
+        <section>
+          <h1>Ifram</h1>
+          <iframe
+            height="300"
+            width="300"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.8415183216944!2d105.77061529999999!3d10.0299337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a0895a51d60719%3A0x9d76b0035f6d53d0!2zxJDhuqFpIGjhu41jIEPhuqduIFRoxqE!5e0!3m2!1svi!2s!4v1725946365247!5m2!1svi!2s"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <hr />
+        </section>
+        <section>
+          <h1>Input</h1>
+          <fieldset>
+            <legend>Thông tin</legend>
+            <table>
+              <tr>
+                <td><label for="username">Họ tên:</label></td>
+                <td>
+                  <input
+                    type="text"
+                    id="username"
+                    name="username"
+                    value=""
+                    maxlength="50"
+                    placeholder="Vui lòng nhập họ tên"
+                    size="30"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="email">Email:</label>
+                </td>
+                <td>
+                  <input
+                    type="text"
+                    id="email"
+                    name="txtEmail"
+                    value=""
+                    maxlength="50"
+                    placeholder="Vui lòng nhập địa chỉ email"
+                    size="30"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="password">Mật khẩu:</label></td>
+                <td>
+                  <input
+                    type="password"
+                    id="password"
+                    name="psw"
+                    value=""
+                    maxlength="50"
+                    placeholder="Vui lòng nhập mật khẩu"
+                    size="30"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>Ngày sinh:</td>
+                <td><input type="date" /></td>
+              </tr>
+              <tr>
+                <td><label for="avatar">Ảnh:</label></td>
+                <td><input type="file" id="avatar" name="avatar" /></td>
+              </tr>
+              <tr>
+                <td>Giới tính:</td>
+                <td>
+                  <input type="radio" name="gender" checked value="male" /> Nam
+                  <input type="radio" name="gender" value="female" /> Nữ
+                  <input type="radio" name="gender" value="other" /> Khác
+                </td>
+              </tr>
+              <tr>
+                <td>Ngôn ngữ lập trình yêu thích:</td>
+                <td>
+                  <input type="checkbox" name="py" checked value="Python" />
+                  Python <input type="checkbox" name="java" value="java" /> Java
+                  <input type="checkbox" name="js" value="JavaScrip" />
+                  JavaScrip <input type="checkbox" name="cpp" value="C++" /> C++
+                </td>
+              </tr>
+              <tr>
+                <td>Màu yêu thích:</td>
+                <td><input type="color" /></td>
+              </tr>
+              <tr>
+                <td>Trình độ ngoại ngữ:</td>
+                <td><input type="range" /></td>
+              </tr>
+              <tr>
+                <td><label for="topic">Nghề nghiệp:</label></td>
+                <td>
+                  <select name="" id="" size="1">
+                    <option value="">--Select--</option>
+                    <option value="">Học sinh/Sinh viên</option>
+                    <option value="">Giáo viên</option>
+                    <option value="">Bác sĩ</option>
+                    <option value="">Kĩ Sư</option>
+                    <option value="">Khác</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2"><label for="content">Khác:</label></td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <textarea
+                    name="content"
+                    id="content"
+                    rows="7"
+                    cols="50"
+                    placeholder="Nội dung cần liên hệ"
+                  ></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <input type="checkbox" /> Tôi đồng ý với điều khoản
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <button type="submit">Đăng kí</button>
+                  <button type="reset">Hủy</button>
+                </td>
+              </tr>
+            </table>
+          </fieldset>
+          <hr />
+        </section>
+        <section>
+          <h1><strong>Bài tập viết bài thơ và thời khóa biểu</strong></h1>
+          <center>
+            <h1>Mùa Thu Độc Lập</h1>
+            <!--style="text-align: center"-->
+            <p>
+              Vang dội mùa thu những chiến công<br />
+              Người dân nước Việt đã đồng lòng<br />
+              Đập tan xiềng xích đòi quyền sống<br />
+              Giành lấy tự do phá triệt gông<br />
+              Mây trắng trời xanh ngời đất nước<br />
+              Sao vàng cờ đỏ rợp non sông<br />
+              Tưng bừng nhảy múa ca vang cháu<br />
+              Giọt lệ dâng tràn khóe mắt ông.
+            </p>
+          </center>
+          <br />
+          <h1>Thời Khóa Biểu</h1>
+          <table border="1" cellspacing="0">
+            <tr bgcolor="lightgray">
+              <th></th>
+              <th>Thứ 2</th>
+              <th>Thứ 3</th>
+              <th>Thứ 4</th>
+              <th>Thứ 5</th>
+              <th>Thứ 6</th>
+              <th>Thứ 7</th>
+            </tr>
+            <tr>
+              <td bgcolor="lightgray"><b>Tiết 1</b></td>
+              <td></td>
+              <td></td>
+              <td>CT188</td>
+              <td>CT173</td>
+              <td>TN002</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td bgcolor="lightgray"><b>Tiết 2</b></td>
+              <td></td>
+              <td></td>
+              <td>CT188</td>
+              <td>CT173</td>
+              <td>TN002</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td bgcolor="lightgray"><b>Tiết 3</b></td>
+              <td></td>
+              <td>TC004</td>
+              <td>CT188</td>
+              <td>CT173</td>
+              <td>TN002</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td bgcolor="lightgray"><b>Tiết 4</b></td>
+              <td>ML018</td>
+              <td>TC004</td>
+              <td></td>
+              <td></td>
+              <td>TN002</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td bgcolor="lightgray"><b>Tiết 5</b></td>
+              <td>ML018</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td bgcolor="lightgray"><b>Tiết 6</b></td>
+              <td></td>
+              <td></td>
+              <td>CT177</td>
+              <td></td>
+              <td>TN012</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td bgcolor="lightgray"><b>Tiết 7</b></td>
+              <td></td>
+              <td></td>
+              <td>CT177</td>
+              <td></td>
+              <td>TN012</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td bgcolor="lightgray"><b>Tiết 8</b></td>
+              <td></td>
+              <td></td>
+              <td>CT177</td>
+              <td>TN012</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td bgcolor="lightgray"><b>Tiết 9</b></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>TN012</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+          <hr />
+        </section>
+      </article>
+    </main>
+    <footer>
+      <h3>Nguyễn Công Chức - B2303800</h3>
+    </footer>
+  </body>
+</html>
