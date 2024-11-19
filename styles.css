@@ -18,6 +18,7 @@ body {
 main.one-col {
   padding: 20px;
   background-color: #ffc1c1;
+  min-height: 500px;
 }
 
 /* Header */
@@ -178,4 +179,33 @@ button[type="reset"] {
 
 button[type="reset"]:hover {
   background-color: #555; /* Màu đậm hơn cho nút hủy */
+}
+/* Định dạng cho phần nội dung chính */
+.main-content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Định dạng cho tiêu đề của mỗi phần */
+.section-title {
+  color: #2c3e50;
+}
+
+/* Định dạng cho các form */
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Định dạng cho kết quả lý thuyết chương 3 */
+.result-output {
+  margin-top: 15px;
+  font-weight: bold;
 }
