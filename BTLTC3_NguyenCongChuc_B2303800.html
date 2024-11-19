@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BTLT</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <img
+          src="https://anhnail.vn/wp-content/uploads/2024/10/meme-meo-khoc-2.webp"
+          alt=""
+        />
+        <p>Chucino</p>
+      </div>
+    </header>
+    <main class="main-content">
+      <section id="triangle-check">
+        <h2 class="section-title">Kiểm tra Tam Giác</h2>
+        <form id="triangleForm">
+          <label for="sideA">Cạnh a:</label>
+          <input type="number" id="sideA" required />
+          <label for="sideB">Cạnh b:</label>
+          <input type="number" id="sideB" required />
+          <label for="sideC">Cạnh c:</label>
+          <input type="number" id="sideC" required />
+          <button type="submit" class="submit-btn">Kiểm tra Tam Giác</button>
+        </form>
+        <div id="triangleResult" class="result-output"></div>
+      </section>
+
+      <section id="power-calculation">
+        <h2 class="section-title">Tính Lũy Thừa</h2>
+        <form id="powerForm">
+          <label for="base">Số a:</label>
+          <input type="number" id="base" required />
+          <label for="exponent">Số mũ n:</label>
+          <input type="number" id="exponent" required />
+          <button type="submit" class="submit-btn">Tính Lũy Thừa</button>
+        </form>
+        <div id="powerResult" class="result-output"></div>
+      </section>
+
+      <section id="factorial-calculation">
+        <h2 class="section-title">Tính Giai Thừa</h2>
+        <form id="factorialForm">
+          <label for="factorialNumber">Số a:</label>
+          <input type="number" id="factorialNumber" required />
+          <button type="submit" class="submit-btn">Tính Giai Thừa</button>
+        </form>
+        <div id="factorialResult" class="result-output"></div>
+      </section>
+    </main>
+
+    <footer class="footer-content">
+      <h2>Chucino</h2>
+      <p>Fullname: Nguyễn Công Chức</p>
+      <p>MSSV: B2303800</p>
+      <p>
+        Email:
+        <a href="mailto:chucb2303800@student.ctu.edu.vn"
+          >chucb2303800@student.ctu.edu.vn</a
+        >
+      </p>
+    </footer>
+    <script src="scrip.js"></script>
+  </body>
+</html>
